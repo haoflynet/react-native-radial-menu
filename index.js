@@ -133,6 +133,7 @@ export default class RadialMenu extends Component {
 
 
   render() {
+    this.state.children = this.childrenToArray();
     return (
       <View style={[
         { position: 'relative',
